@@ -389,6 +389,13 @@ section .container {
   padding: 30px;
 }
 
+.XNo5Ab{
+  margin-right: 20px;
+  height: 50px;
+  width: 50px;
+  object-fit: fill ;
+}
+
 @media (max-width: 768px) {
   section {
     top: 120px;
