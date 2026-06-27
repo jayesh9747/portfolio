@@ -16,8 +16,8 @@ Static HTML portfolio with a Netlify serverless contact form.
 ```env
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
-SMTP_USER=gopalsavaliya245@gmail.com
-SMTP_FROM=gopalsavaliya245@gmail.com
+SMTP_USER=
+SMTP_FROM=
 SMTP_PASS=your-gmail-app-password
 ```
 
