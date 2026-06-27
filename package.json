@@ -1,0 +1,12 @@
+{
+  "name": "jayesh-html-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static HTML portfolio with Netlify serverless contact form.",
+  "scripts": {
+    "build": "echo \"Static site: no build required\""
+  },
+  "dependencies": {
+    "nodemailer": "^7.0.10"
+  }
+}
