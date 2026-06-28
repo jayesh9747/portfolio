@@ -215,7 +215,7 @@ export function Terminal() {
             <span className="size-3 rounded-full bg-ok/80" />
           </div>
           <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-ink-faint">
-            {PROMPT}: ~/portfolio
+            {PROMPT}: ~/jayesh9747
           </span>
         </div>
 
