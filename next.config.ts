@@ -13,7 +13,7 @@ import type { NextConfig } from "next";
  * PROJECT PAGES (e.g. jayesh9747.github.io/my-portfolio):
  *   uncomment the two lines below and set them to "/<repo-name>".
  */
-const repoBasePath = ""; // e.g. "/my-portfolio" for a project page
+const repoBasePath = "/jayesh9747"; // e.g. "/my-portfolio" for a project page
 
 const nextConfig: NextConfig = {
   output: "export",

@@ -1,87 +1,40 @@
-<div align="center">
 
-# JAYESH.OS
+<h1 align="center">Hi, I'm Jayesh Savaliya</h1>
+<p align="center">A passionate backend developer from India. I have an immense interest in automating things up and contributing to open source.</p>
 
-**An operating-system–style portfolio for an AI Product Engineer.**
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=jayesh9747&label=Profile%20views&color=0e75b6&style=flat" alt="jayesh9747" /> </p>
 
-Not a website — an experience. A cinematic boot sequence, glass panels with
-dynamic lighting, a 3D skills galaxy, mission-style case studies, an interactive
-architecture playground, a grounded AI assistant, and a real developer terminal.
 
-[**Live → jayesh9747.github.io**](https://jayesh9747.github.io)
 
-`Next.js` · `React 19` · `TypeScript` · `Tailwind v4` · `Framer Motion` · `React Three Fiber` · `Lenis`
+<ul>
+  <li>🔭 Web Developer</li>
+  <li>🌱 I’m currently working on React-Native</li>
+  <li>👨‍💻 All of my projects are available at <a href="https://github.com/jayesh9747" target="_blank">https://github.com/jayesh9747</a></li>
+  <li>💬 Ask me about React, React-Native,NodeJs & Open Source</li>
+</ul>
 
-</div>
 
----
 
-## Highlights
 
-- **Cinematic boot** — an OS-style startup sequence that resolves into the interface.
-- **Interactive career timeline** — scrub the journey; metrics count up on reveal.
-- **Skills galaxy** — a 3D constellation (React Three Fiber); click a skill and the
-  projects that use it light up. Accessible tag-cloud fallback on touch devices.
-- **Project command center** — real case studies (GitFlip, QwikAid, Transpectra, Rizzl, Eduteck) with architecture, decisions, challenges and outcomes.
-- **Architecture playground** — an interactive system diagram that traces request
-  flow and explains scaling decisions on hover.
-- **AI assistant** — a retrieval assistant grounded in the portfolio's own data.
-- **Developer terminal** — a real command interface (`help`, `projects`,
-  `open <id>`, `skills`, `resume`, `contact`).
-- **Built for performance & SEO** — static export, lazy-loaded 3D, motion that
-  respects `prefers-reduced-motion`, full metadata + JSON-LD.
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jayesh9747&layout=compact&hide=php,c,html,roff&langs_count=10" alt="jayesh9747" />
+</p>
+<p align="center">
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=jayesh9747&show_icons=true" alt="jayesh9747" />
+</p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jayesh9747&layout=compact" />
+</p>
 
-## Tech stack
-
-| Layer | Choice |
-|------|--------|
-| Framework | Next.js (App Router) + React 19 |
-| Language | TypeScript |
-| Styling | Tailwind CSS v4 (design tokens via `@theme`) |
-| Motion | Framer Motion |
-| 3D | React Three Fiber + drei + Three.js |
-| Smooth scroll | Lenis |
-| Hosting | GitHub Pages (static export) via GitHub Actions |
-
-## Getting started
-
-```bash
-npm install
-npm run dev      # http://localhost:3000
-npm run build    # static export → ./out
-```
-
-> The boot animation plays once per browser session. To replay it, run
-> `sessionStorage.clear()` in the console and refresh.
-
-## Project structure
-
-```
-src/
-├─ app/            layout, page composition, global styles, SEO routes
-├─ components/
-│  ├─ os/          the OS shell — boot, cursor, ambient bg, dock, smooth scroll
-│  ├─ sections/    hero, timeline, skills galaxy, projects, architecture,
-│  │               assistant, terminal, contact
-│  └─ ui/          design-system primitives (Reveal, GlassPanel, MagneticButton…)
-└─ lib/
-   ├─ data.ts      ← single source of truth: profile, timeline, skills, projects
-   ├─ knowledge.ts retrieval engine powering the AI assistant
-   ├─ hooks.ts     media-query / reduced-motion / mounted helpers
-   └─ utils.ts     cn(), lerp, clamp, mapRange
-```
-
-**Everything content-related lives in [`src/lib/data.ts`](src/lib/data.ts).**
-Edit that one file and the entire site updates.
-
-## Deployment
-
-Pushing to `main` triggers a GitHub Actions workflow that builds the static
-export and publishes it to GitHub Pages. Configured for a root user-site
-(no `basePath`); see [`next.config.ts`](next.config.ts) for project-page setup.
-
----
-
-<div align="center">
-<sub>Designed & built by Jayesh.</sub>
-</div>
+<h2 align="center">Connect with me</h2>
+<div align="center">  
+  <a href="https://github.com/jayesh9747" target="_blank">
+    <img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
+  </a>
+  <a href="https://twitter.com/jayeshsav3yp1" target="_blank">
+    <img src=https://img.shields.io/badge/twitter-%2300acee.svg?&style=for-the-badge&logo=twitter&logoColor=white alt=twitter style="margin-bottom: 5px;" />
+  </a>
+  <a href="https://www.linkedin.com/in/jayesh-savaliya-b677541a7/" target="_blank">
+    <img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
+  </a> 
+</div>  
