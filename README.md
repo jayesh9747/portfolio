@@ -7,10 +7,11 @@
 
 
 <ul>
-  <li>🔭 Web Developer</li>
-  <li>🌱 I’m currently working on React-Native</li>
-  <li>👨‍💻 All of my projects are available at <a href="https://github.com/jayesh9747" target="_blank">https://github.com/jayesh9747</a></li>
-  <li>💬 Ask me about React, React-Native,NodeJs & Open Source</li>
+  <li>🔭 Full-Stack AI & Cloud-Native Developer</li>
+  <li>🌱 I’m currently working on React Native, NestJS, Go, and Kubernetes</li>
+  <li>💼 Check out my interactive OS portfolio: <a href="https://jayesh9747.github.io" target="_blank">jayesh9747.github.io</a></li>
+  <li>📄 Download my resume: <a href="https://jayesh9747.github.io/Jayesh_Savaliya_9747.pdf" target="_blank">Resume PDF</a></li>
+  <li>💬 Ask me about Go, React Native, NestJS, Kubernetes & Agentic AI / RAG</li>
 </ul>
 
 
