@@ -17,7 +17,7 @@ export const profile = {
     "Open Source Maintainer",
   ],
   tagline:
-    "I build end-to-end full-stack products, cloud-native infrastructure, and AI/RAG pipelines that scale.",
+    "I help startups and companies build scalable, high-performance MVPs and tech stacks from the ground up—with fast, robust, and cost-effective solutions.",
   location: "Pune, India · GMT+5:30",
   email: "jsavaliya.tech@gmail.com",
   phone: "+91 7490811091",

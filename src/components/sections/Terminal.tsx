@@ -12,8 +12,9 @@ const PROMPT = `${profile.handle}@os`;
 
 const HELP = `Available commands:
   about            who is ${profile.name}
+  services         mvp & tech services I provide
   projects         list missions
-  open <id>        open a mission (e.g. open intelligize)
+  open <id>        open a mission (e.g. open gitflip)
   skills           list the stack
   experience       career timeline
   resume           summary + download
@@ -40,6 +41,20 @@ function runCommand(
       out.push({
         type: "out",
         text: `${profile.name} — ${profile.role}\n${profile.tagline}\n${profile.yearsExperience}+ yrs · multiple products shipped · ${profile.location}`,
+      });
+      break;
+    case "services":
+      out.push({
+        type: "out",
+        text: `[Services & Expertise]
+  - Web Apps     Next.js/React, performant Go/Node backends.
+  - Mobile Apps  High-performance React Native (iOS/Android) experiences.
+  - Backend/API  Robust microservices, secure REST/GraphQL, optimized databases.
+  - Cloud/DevOps AWS infrastructure automation, Docker containerization, CI/CD.
+  - AI/RAG       Agentic AI workflows, RAG pipelines, LangGraph, MCP integrations.
+  - Open Source  CLI utilities, workflow tooling, CNCF maintainer.
+
+Need a technical co-pilot or MVP built fast? Let's connect.`,
       });
       break;
     case "projects":
@@ -201,7 +216,7 @@ export function Terminal() {
         index="07"
         kicker="Developer Terminal"
         title="For the people who'd rather type."
-        description="A real command interface. Try help, projects, open intelligize, or skills — it actually runs."
+        description="A real command interface. Try help, services, projects, open gitflip, or skills — it actually runs."
       />
 
       <div
