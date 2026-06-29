@@ -56,6 +56,14 @@ const docs: Doc[] = [
     },
   },
   {
+    id: "services",
+    label: "Services",
+    anchor: "terminal",
+    keywords: ["service", "services", "offer", "offering", "do you do", "help", "build", "mvp", "startup", "startups", "provide", "expert", "expertise"],
+    build: () =>
+      `${profile.name} provides end-to-end MVP development and scalability solutions for startups. Services include: 1) Full-Stack Web Apps (Next.js/React, Go/Node backends); 2) Mobile Apps (React Native iOS/Android); 3) Backend & APIs (Microservices, secure REST/GraphQL, optimized databases); 4) Cloud & DevOps (AWS, Docker containerization, CI/CD); 5) AI Integration (Agentic workflows, RAG pipelines, LangGraph, MCP); 6) Open Source & Tooling.`,
+  },
+  {
     id: "ai",
     label: "AI & RAG work",
     anchor: "projects",
@@ -113,7 +121,7 @@ function score(query: string, doc: Doc) {
 
 export const suggestedQuestions = [
   "What projects has Jayesh built?",
-  "How many years of experience?",
+  "What services does he provide?",
   "What AI systems has he worked on?",
   "What's the tech stack?",
   "How can I get in touch?",
